@@ -1,0 +1,109 @@
+
+.robotos{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.box1, 
+.body,
+.hand,
+.hand2,
+.lleg,
+.rleg{
+    background-color: blueviolet;
+}
+
+.box1{
+    
+    width: 200px;
+    margin: 0 auto;
+    height: 150px;
+    border-radius: 200px 200px 0px 0px;
+    margin-bottom: 10px;
+}
+.box1:hover{
+    width: 300px;
+    transition: 1s ease-in-out;
+}
+.eyes{
+    display: flex;
+
+}
+
+.leye, .reye{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.leye{
+    position: relative;
+    top: 80px;
+    left: 35px;
+}
+.reye{
+    position: relative;
+    top: 80px;
+    left: 105px;
+}
+
+.bodybox{
+    width: 300px;
+    height: 150px;
+    /* background-color:blueviolet ; */
+    display:flex;
+    /* justify-content: center; */
+}
+.hand, .hand2{
+    width: 40px;
+    height: 125px;
+    border-radius: 100px;
+    /* background-color:blueviolet; */
+
+}
+.hand{
+    margin-right:10px ;
+}
+.hand:hover{
+    transform: rotate(20deg);
+    transition: .5s ease-in-out;
+}
+.hand2{
+    margin-left: 10px;
+}
+.body{
+    width: 200px;
+    height: 200px;
+    border-radius: 0 0 30px 30px;
+    /* margin-bottom: 40px; */
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+}
+.lleg,.rleg{
+    width: 30px;
+    height: 60px;
+    border-radius: 0 0 100px 100px;
+
+}
+.lleg{
+    margin-left: 20px;
+    position: relative;
+    top: 60px;
+    left: 15px;
+}
+.lleg:hover{
+    transform: rotate(20deg);
+    transition: .5s ease-in-out;
+}
+.rleg{
+    margin-right: 120px;
+    position: relative;
+    top: 60px;
+    left: 85px;
+}

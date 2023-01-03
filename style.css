@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    background-image: url(luffy.jpg);
+    background-size:cover ;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+h1{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    border-bottom: 5px solid rgb(170, 170, 196);
+    width: 380px;
+    border-right: 5px solid rgb(104, 104, 167);
+    box-shadow: 4px 4px 5px rgb(255, 255, 255);
+}
